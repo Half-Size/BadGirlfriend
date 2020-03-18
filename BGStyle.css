@@ -53,6 +53,17 @@ h2 {
 
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.logo{
+    position: absolute;
+    top: 258.1px;
+}
 .textContent {
     margin-top: 20px;
     padding: 10% 5% 20% 5%;
