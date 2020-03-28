@@ -1,0 +1,156 @@
+body {
+    font-family: 'Caladea', serif;
+    padding: 0;
+    margin: 0;
+    color: rgb(49, 47, 47);
+    text-align: center;
+}
+
+body img {
+    width: 100%;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-image: url(images/SFWblue.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+header img {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+nav {
+    border-bottom: 1px solid rgb(49, 47, 47);
+    font-family: 'Spartan', sans-serif;
+    font-weight: 800;
+    z-index: 9999;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+    width: 24%;
+    text-decoration: none;
+}
+
+nav a{
+    color: rgb(49, 47, 47);
+}
+
+nav a:hover {
+    background-color: rgb(49, 47, 47);
+    color: white;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+#intro {
+    height: 350px;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url(images/HareBW.jpg);
+    color: white;
+    position: relative;
+}
+
+.textContent {
+    margin: 0;
+    padding: 10% 5% 20% 5%;
+    font-size: 1.15rem;   
+    background-position: 50%;
+    background-size: cover;
+}
+
+.quote {
+    display: block;
+    padding: 20px;
+    font-size: 1rem;
+    font-family: 'spartan';
+}
+
+.quoteAuth {
+    color: rgb(255, 123, 0);
+    font-weight: 800;
+}
+
+.photocredit{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 0.5rem;
+    font-style: italic;
+}
+
+#gigs {
+    height: 250px;
+}
+
+#gigs img {
+    width: 22%;
+}
+
+#music {
+    height: 250px;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url(images/SFWfull.jpg);
+    color: white;
+}
+
+#music img {
+    width: 30%;
+    padding: 5%;
+}
+
+#video {
+    height: 250px;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url(images/RoyalsScreen.png);
+      color: white;
+}
+
+#video img {
+    width: 50%;
+}
+
+#video a {
+    color: black;
+}
+
+#contact {
+    height: 250px;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url(images/Hare.jpg);
+      color: white;
+}
+
+#contact a{
+    color: white;
+}
+
+#contact img{
+    width: 25%;
+}
+
